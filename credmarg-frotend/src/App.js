@@ -14,7 +14,9 @@ const App = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Button color="inherit" component={Link} to="/employees">Employees</Button>
+                    <Button color="inherit" component={Link} to="/employees/new">Add Employees</Button>
                     <Button color="inherit" component={Link} to="/vendors">Vendors</Button>
+                    <Button color="inherit" component={Link} to="/vendors/new">Add Vendors</Button>
                     <Button color="inherit" component={Link} to="/send-email">Send Email</Button>
                     <Button color="inherit" component={Link} to="/emails">Sent Emails</Button>
                 </Toolbar>
